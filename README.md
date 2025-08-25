@@ -17,13 +17,13 @@ Retrouvez l'application en cliquant ici : [![Shiny App](https://img.shields.io/b
 
 ## 🏆 Ligues supportées
 
-- **Premier League** (Angleterre 🏴󐁧󐁢󐁥󐁮󐁧󐁿)
-- **Ligue 1** (France 🇫🇷) 
-- **Bundesliga** (Allemagne 🇩🇪)
-- **Serie A** (Italie 🇮🇹)
-- **La Liga** (Espagne 🇪🇸)
-- **Primeira Liga** (Portugal 🇵🇹)
-- **Eredivisie** (Pays-Bas 🇳🇱)
+- **Premier League** (Angleterre)
+- **Ligue 1** (France) 
+- **Bundesliga** (Allemagne)
+- **Serie A** (Italie)
+- **La Liga** (Espagne)
+- **Primeira Liga** (Portugal)
+- **Eredivisie** (Pays-Bas)
 
 ## 🚀 Version locale
 
@@ -43,9 +43,9 @@ install.packages(c(
 
 ### Installation et lancement
 ```r
-# Télécharger le fichier app.R depuis GitHub
+# Télécharger le fichier Transfert_market_analysis.R depuis GitHub
 # Puis dans RStudio :
-shiny::runApp("app.R")
+shiny::runApp("Transfert_market_analysis.R")
 ```
 
 ## 📊 Aperçu des analyses
