@@ -1,0 +1,161 @@
+# =============================================================================
+# .gitignore pour Projet R Shiny - Analyse des Transferts Football
+# =============================================================================
+
+# -------------------------
+# Fichiers R et RStudio
+# -------------------------
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+.Rapp.history
+
+# -------------------------
+# Données temporaires R
+# -------------------------
+*_cache/
+cache/
+*_files/
+.httr-oauth
+.DS_Store
+
+# -------------------------
+# Environnement R
+# -------------------------
+.Renviron
+.Rprofile
+
+# -------------------------
+# Packages R compilés
+# -------------------------
+*.o
+*.so
+*.dll
+
+# -------------------------
+# Fichiers Shiny spécifiques
+# -------------------------
+rsconnect/
+.Rproj.user
+
+# -------------------------
+# Données et exports
+# -------------------------
+data/
+exports/
+downloads/
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# -------------------------
+# Logs et debugging
+# -------------------------
+*.log
+shiny-server.log
+error.log
+debug.txt
+
+# -------------------------
+# Fichiers système
+# -------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# -------------------------
+# IDE et éditeurs
+# -------------------------
+# RStudio
+.Rproj.user/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# -------------------------
+# Environnements virtuels
+# -------------------------
+venv/
+env/
+ENV/
+
+# -------------------------
+# Fichiers de configuration
+# -------------------------
+config.R
+secrets.R
+api_keys.R
+.env
+.secrets
+
+# -------------------------
+# Backup et versions
+# -------------------------
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+*~
+
+# -------------------------
+# Documentation générée
+# -------------------------
+man/
+doc/
+docs/
+*.Rd
+
+# -------------------------
+# Tests et coverage
+# -------------------------
+tests/testthat/Rplots.pdf
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+
+
+# Docker
+Dockerfile.tmp
+docker-compose.override.yml
+
+# Heroku
+.slugignore
+
+# -------------------------
+# Fichiers temporaires
+# -------------------------
+tmp/
+temp/
+.tmp
+.temp
